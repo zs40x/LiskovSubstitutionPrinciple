@@ -7,12 +7,12 @@ namespace LiskovSubstitutionPrinciple.Violation
         {
             get
             {
-                return height;
+                return _height;
             }
             set
             {
-                width = value;
-                height = value;
+                _width = value;
+                _height = value;
             }
         }
 
@@ -20,12 +20,12 @@ namespace LiskovSubstitutionPrinciple.Violation
         {
             get
             {
-                return width;
+                return _width;
             }
             set
             {
-                width = value;
-                height = value;
+                _width = value;
+                _height = value;
             }
         }
     }

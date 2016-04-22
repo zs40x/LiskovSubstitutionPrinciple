@@ -25,12 +25,12 @@ namespace LiskovSubstitutionPrinciple.Tests
             Rectangle rect = new Square
             {
                 Width = 5,
-                Height = 10
+                Height = 10 // inconsistent - but possible!
             };
 
             /*
              * Te following Assertions failes, because Square modifies 
-             * the behaviour of Rectangle. Changing width or height 
+             * the behaviour of Rectangle. Changing _width or _height 
              * always changes both attributes to be a valid Square.
              * 
              * => Violation of the Liskov Substitution Principle

@@ -3,27 +3,21 @@ namespace LiskovSubstitutionPrinciple.Violation
 {
     public class Rectangle
     {
-        protected int width;
-        protected int height;
+        protected int _width;
+        protected int _height;
 
         public virtual int Height
         {
-            get { return height; }
-            set { height = value; }
+            get { return _height; }
+            set { _height = value; }
         }
 
         public virtual int Width
         {
-            get { return width; }
-            set { width = value; }
+            get { return _width; }
+            set { _width = value; }
         }
 
-        public int Area
-        {
-            get
-            {
-                return width * height;
-            }
-        }
+        public int Area => _width * _height;
     }
 }

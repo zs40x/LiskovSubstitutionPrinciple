@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Valid\Rectangle.cs" />
+    <Compile Include="Valid\Shape.cs" />
+    <Compile Include="Valid\Square.cs" />
     <Compile Include="Violation\Rectangle.cs" />
     <Compile Include="Violation\Square.cs" />
   </ItemGroup>
